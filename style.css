@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%; /* 1rem = 10px*/
+    --primary-color: hsl(170, 100%, 26%);
+    --secondary-color-headline: hsl(210, 11%, 15%);
+    --secondary-color-paragraph: hsl(210, 9%, 31%);
+    --primary-color-brand-beige: hsl(39, 100%, 97%);
+    --primary-color-brand-green-light: hsl(148, 23%, 89%);
+}
+body {
+    font-family: "DM Sans";
+    font-size: 1.6rem;
+    text-align: center;
+}
+body h4{
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    
+    margin-bottom: 1.6rem;
+}
+body h1{
+    color: var(--secondary-color-headline);
+    font-size: 3.4rem;
+    line-height: 130%;
+    
+    margin-bottom: 2.4rem;
+}
+body p {
+    color: var(--secondary-color-paragraph);
+    font-size: 1.8rem;
+    line-height: 150%;
+    font-weight: 400;
+    
+    margin-bottom: 3.2rem;
+}
+header {
+    width: 37.5rem;
+    
+    margin-top: 4.1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+header button{
+    color: #ffffff;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    background: var(--primary-color);
+    
+    height: 6.2rem;
+    width: 26.3rem;
+    
+    border: none;
+    border-radius: 4rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+    
+    margin-bottom: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+}
